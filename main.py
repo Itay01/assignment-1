@@ -65,6 +65,7 @@ for soldier in range(1, 6):
             else:
                 print("The answer you entered is invalid!\n")
     print("\n")
+
     if count_per_soldier >= 6:
         number_of_soldiers += 1
     count_trees += count_per_soldier
