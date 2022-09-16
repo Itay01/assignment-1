@@ -42,7 +42,7 @@ while i < 10:
         else:
             break
     i = i + 1
-    if height < 170 and weight < 75 or weight > 100:
+    if height < 170 or weight < 75 or weight > 100:
         print(f"no entrance for you! your height is {height}, your weight is {weight}\n")
     else:
         count = count + 1
